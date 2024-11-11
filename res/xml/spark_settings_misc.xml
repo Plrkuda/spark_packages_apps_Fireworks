@@ -203,6 +203,12 @@
 
    </PreferenceCategory>
 
+  <Preference
+        android:key="spoofing"
+        android:title="@string/sharpener_spoofing_title"
+        android:summary="@string/sharpener_spoofing_summary"
+        android:fragment="com.spark.settings.fragments.SpoofSettings" />    
+
     <PreferenceCategory
         android:key="flashlight_category"
         android:title="@string/power_menu_torch_title">

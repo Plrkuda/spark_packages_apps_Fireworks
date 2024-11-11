@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    android:color="?android:colorControlHighlight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/mask">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid
+                android:color="#ffffffff" />
+            <corners
+                android:topLeftRadius="33.0dip"
+                android:topRightRadius="33.0dip"
+                android:bottomLeftRadius="33.0dip"
+                android:bottomRightRadius="33.0dip" />
+        </shape>
+    </item>
+    <item
+        android:id="@android:id/background">
+        <shape
+            android:shape="rectangle"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid
+                android:color="@color/user_crd_bg" />
+            <corners
+                android:topLeftRadius="33.0dip"
+                android:topRightRadius="33.0dip"
+                android:bottomLeftRadius="33.0dip"
+                android:bottomRightRadius="33.0dip" />
+        </shape>
+    </item>
+</ripple>

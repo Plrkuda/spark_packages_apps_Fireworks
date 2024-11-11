@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/overlap_layer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40.0dip"
+        android:foregroundGravity="center">
+        <TextClock
+            android:textSize="200.0sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/BR_SC"
+            android:format12Hour="dd" />
+        <TextClock
+            android:textSize="140.0sp"
+            android:textColor="#fffd1540"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/text_day"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-120.0dip"
+            android:layout_marginRight="30.0dip"
+            android:fontFamily="@font/font_7f090002"
+            android:format12Hour="EEE" />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10.0dip">
+            <TextClock
+                android:textSize="27.0sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/text_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:fontFamily="@font/Sans_Bold"
+                android:format12Hour="hh:mm a" />
+            <View
+                android:layout_gravity="center_horizontal"
+                android:background="#fffd1540"
+                android:layout_width="140.0dip"
+                android:layout_height="6.0dip"
+                android:layout_marginTop="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -19,6 +19,182 @@
     <string name="wallpaper_color">Wallpaper color</string>
     <string name="custom_color">Custom color</string>
 
+    <string name="sharpener_spoofing_title">Spoofing</string>
+    <string name="sharpener_spoofing_summary">Spoof as different device to unlock application features</string>
+   <!-- Per-app spoofing -->
+    <string name="gameprops_title">Enable Per-app spoofing</string>
+    <string name="gameprops_summary">Enables per-app spoofing options within the PixelProps</string>
+    <string name="gameprops_load_json_title">Select Per-app Props JSON File</string>
+    <string name="gameprops_load_json_summary">Pick Per-app JSON file to be used for spoofing games</string>
+
+
+   <!-- Enable all props -->
+    
+    <string name="all_props_title">Enable Pixel Props</string>
+    <string name="all_props_summary">Enables all the spoof options within the PixelProps</string>
+
+    <!-- Spoof google app props -->
+    <string name="google_spoof_title">Spoof google apps</string>
+   
+    <string name="google_spoof_summary">Spoof a few google apps to Pixel 9 Pro</string>
+    <string name="google_spoof_option_disabled">Enabling Google apps spoofing is not needed by current device</string>
+
+<!-- custom charging icon styles -->
+    <string name="color_default">Default</string>
+    <string name="custom_battery_charging_icon_title">Charging icons</string>
+    <string name="custom_battery_charging_icon_summary">Display charging icon on side of battery</string>
+    <string name="custom_battery_charging_icon_style_title">Charging icons style</string>
+    <string name="custom_battery_charging_icon_wh_title">Scale width &amp; height</string>
+
+    <!-- charging symbol -->
+    <string name="custom_icon_charging_symbol_title">Charging symbol for battery text</string>
+    <string name="custom_symbol_charging_default">Default (Bolt)</string>
+    <string name="custom_symbol_charging_type1">Biohazard</string>
+    <string name="custom_symbol_charging_type2">Star</string>
+    <string name="custom_symbol_charging_type3">Smile</string>
+    <string name="custom_symbol_charging_type4">Recycle</string>
+    <string name="custom_symbol_charging_type5">Infinity</string>
+    <string name="custom_symbol_charging_type6">Sun Flower</string>
+    <string name="custom_symbol_charging_type7">Tear Dropp</string>
+    <string name="custom_symbol_charging_type8">Snow</string>
+    <string name="custom_symbol_charging_type9">Triple Tilde</string>
+
+    <!-- flip it -->
+    <string name="flip_batre_image_title">Battery Image</string>
+    <string name="flip_batre_image_summary">flip the battery image</string>
+    <string name="flip_batre_title">Battery Layout</string>
+    <string name="flip_batre_summary">flip the battery layout</string>
+
+    <!-- custom battery drawable -->
+    <string name="custom_battery_drawable_title">Misc on Battery Drawable</string>
+    <string name="custom_battery_scaled_perimeter_alpha_title">Scaled perimeter alpha</string>
+    <string name="custom_battery_scaled_perimeter_alpha_summary">Use scaled perimeter alpha</string>
+    <string name="custom_battery_scaled_fill_alpha_title">Use scaled back fill alpha</string>
+    <string name="custom_battery_scaled_fill_alpha_summary">Scaled back fill alpha</string>
+    <string name="custom_battery_color_title">Battery custom color</string>
+    <string name="custom_battery_color_summary">Set to #ff000000 for default blend color</string>
+    <string name="custom_battery_charging_color_title">Changing color</string>
+    <string name="custom_battery_fill_color_title">Fill custom color</string>
+    <string name="custom_battery_fill_grad_color_title">Fill gradient color</string>
+    <string name="custom_battery_fill_grad_color_summary">#ff000000 for disable gradient</string>
+    <string name="custom_battery_powersave_color_title">PowerSave color</string>
+    <string name="custom_battery_powersave_fill_color_title">PowerSave fill color</string>
+    <string name="custom_battery_rainbow_fill_title">Rainbow fill color</string>
+    <string name="custom_battery_rainbow_fill_summary">Only for style Buddy &amp; Strip Path</string>
+    <string name="sthumb_new_tint_picker_summary">use rgb color picker</string>
+
+    <!-- custom battery layout -->
+    <string name="custom_battery_layout_title">Misc on Battery Layout</string>
+    <string name="custom_battery_rotation_title">Battery image rotation</string>
+    <string name="custom_battery_rotation_summary">to rotate the landscape battery</string>
+    <string name="custom_battery_leftpct_title">Left battery percent</string>
+    <string name="custom_battery_leftpct_summary">to put battery percent to the left</string>
+
+    <!-- custom batre dimen -->
+    <string name="custom_battery_dimension_title">Battery Custom Dimension</string>
+    <string name="custom_battery_dimension_summary">use custom addjustable dimen values</string>
+    <string name="custom_battery_height">Height</string>
+    <string name="custom_battery_width">Width</string>
+    <string name="custom_battery_top">Margin Top</string>
+    <string name="custom_battery_bottom">Margin Bottom</string>
+    <string name="custom_battery_left">Margin Left</string>
+    <string name="custom_battery_right">Margin Right</string>
+
+
+   <!-- Custom logo -->
+    <string name="status_bar_logo_title">Logo</string>
+    <string name="status_bar_logo_summary">Display a custom logo on left or right of the status bar</string>
+    <string name="status_bar_logo_position_title">Logo position</string>
+    <string name="status_bar_logo_style_title">Logo style</string>
+    <string name="status_bar_logo_style_crdroid">risingOS</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_alien">Alien</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">BlackBerry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoticon devil</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_heart">Heart</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pacman">Pac-man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_spiderman">Spider-Man</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">Xbox</string>
+    <string name="status_bar_logo_style_ghost">Ghost</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ironman">Iron Man</string>
+    <string name="status_bar_logo_style_captain_america">Captain America</string>
+    <string name="status_bar_logo_style_flash">Flash</string>
+    <string name="status_bar_logo_style_tux">Tux</string>
+    <string name="status_bar_logo_style_ubuntu">Ubuntu</string>
+    <string name="status_bar_logo_style_mint">Linux Mint</string>
+
+    <string name="apply_button_text">Apply</string>
+    <string name="font_preview_text">"The quick brown
+fox jumps over the
+lazy dog
+
+ABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+abcdefghijkl
+mnopqrstuvwxyz
+1234567890"</string>
+
+    <string name="font_styles_title">Font Styles</string>
+
+    <!-- Lockscreen Clock Highlight Guide --> 
+    <string name="ls_clock_face_highlight_text">Swipe left or right to preview clock styles</string>
+
+    <!-- Lockscreen Clock Revamp --> 
+    <string name="ls_clock_custom_font_not_supported">Selected clock does not support custom fonts</string>
+
+<!-- Custom Clock Style -->
+    <string name="lockscreen_clock_category_title">Lockscreen clock and widgets</string>
+    <string name="lockscreen_clock_category_summary">Configure lockscreen clock and widgets</string>
+    <string name="custom_clock_style">Custom Clock Style</string>
+    
+    <!-- Lockscreen widgets  -->
+    <string name="lockscreen_widgets_title">Lockscreen Widgets</string>
+    <string name="lockscreen_widgets_enabled_title">Enable Lockscreen Widgets</string>
+    <string name="lockscreen_widgets_enabled_summary">Add widgets to lockscreen</string>
+    <string name="lockscreen_display_widgets_title">Device info Widget</string>
+    <string name="lockscreen_display_widgets_summary">Show device info widget on lockscreen</string>
+	<string name="large_widgets_category_title">Big widgets</string>
+    <string name="main_custom_widgets1">Big widget 1</string>
+    <string name="main_custom_widgets2">Big widget 2</string>
+    <string name="mini_widgets_category_title">Mini widgets</string>
+    <string name="custom_widgets1">Mini widget 1</string>
+    <string name="custom_widgets2">Mini widget 2</string>
+    <string name="custom_widgets3">Mini widget 3</string>
+    <string name="custom_widgets4">Mini widget 4</string>
+    <string name="camera">Camera</string>
+    <string name="clock_timer">Clock/Timer</string>
+    <string name="calculator">Calculator</string>
+    <string name="gallery">Gallery</string>
+    <string name="media">Media Player</string>
+    <string name="torch">Torch</string>
+    <string name="controls_media_button_play">Play</string>
+    <string name="weather">Weather</string>
+    <string name="wifi">Wifi</string>
+    <string name="data">Data</string>
+    <string name="ringer">Ringer</string>
+    <string name="bt">Bluetooth</string>
+
+<string name="theme_customization_lock_clock_title">Clock face</string>
+    <string name="theme_customization_lock_clock_summary">Modify lockscreen clock appearance</string>
+ 
+
     <!-- Units -->
     <string name="unit_seconds">seconds</string>
     <string name="unit_milliseconds">milliseconds</string>
@@ -33,7 +209,6 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
-    <string name="color_default">Default</string>
 
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
@@ -450,15 +625,33 @@
     <string name="use_games_spoof_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
 
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Battery style</string>
+   <!-- Status bar - Battery -->    
+    
+  <string name="status_bar_battery_style_title">Battery style</string>    
+    <string name="status_bar_battery_style_summary">Statusbar and QS Battery Styles</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
     <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
+    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
     <string name="status_bar_battery_style_big_circle">Big circle</string>
     <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
+    <string name="status_bar_battery_style_land_a">Landscape Simply</string>
+    <string name="status_bar_battery_style_land_b">Landscape NeNine</string>
+    <string name="status_bar_battery_style_land_c">Landscape ColorOS</string>
+    <string name="status_bar_battery_style_land_d">Landscape Love</string>
+    <string name="status_bar_battery_style_land_e">Landscape BaseBall</string>
+    <string name="status_bar_battery_style_land_f">Landscape Half Fill</string>
+    <string name="status_bar_battery_style_land_g">Landscape Tadika Mesra</string>
+    <string name="status_bar_battery_style_land_h">Landscape MIUI</string>
+    <string name="status_bar_battery_style_land_i">Landscape Buddy</string>
+    <string name="status_bar_battery_style_land_j">Landscape Strip Path</string>
+    <string name="status_bar_battery_style_land_k">Landscape iOS Fourteen</string>
+    <string name="status_bar_battery_style_land_l">Landscape iOS Sixteen</string>
+    <string name="status_bar_battery_style_land_m">Landscape iOS Outline</string>
+    <string name="status_bar_battery_style_land_n">Landscape Ruler</string>
+    <string name="status_bar_battery_style_land_o">Landscape Windows</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
     <string name="status_bar_battery_percent_title">Battery percent</string>
@@ -468,19 +661,8 @@
     <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
-    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
-    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
-    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
-    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
-    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
-    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
-    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
-    <string name="status_bar_battery_style_icon_landscape_ios15">Landscape iOS 15</string>
-    <string name="status_bar_battery_style_icon_landscape_ios16">Landscape iOS 16</string>
-    <string name="status_bar_battery_style_icon_landscape_origami">Landscape Origami</string>
-    <string name="status_bar_battery_style_icon_landscape_miui">Landscape Miui</string>
+    
+
 
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>

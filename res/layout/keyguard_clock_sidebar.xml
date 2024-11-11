@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="start|center"
+    android:layout_gravity="start|center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/timeSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40.0dip"
+        android:layout_marginStart="20.0dip">
+        <View
+            android:background="#ffa2ecbb"
+            android:layout_width="8.0dip"
+            android:layout_height="70.0dip" />
+        <View
+            android:background="#ff89d8f6"
+            android:layout_width="8.0dip"
+            android:layout_height="70.0dip" />
+        <View
+            android:background="#fff68989"
+            android:layout_width="8.0dip"
+            android:layout_height="70.0dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/timeTextSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40.0dip"
+        android:layout_marginStart="30.0dip">
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/timeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-20.0dip"
+            android:text="Time is"
+            android:fontFamily="@font/Future"
+            android:layout_marginStart="5.0dip" />
+        <TextClock
+            android:textSize="25.0sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/timeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:text="$df(h:mm a)$"
+            android:fontFamily="@font/font_7f090004" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/calendarSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110.0dip"
+        android:layout_marginStart="30.0dip">
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/calendarLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-20.0dip"
+            android:text="Calendar"
+            android:fontFamily="@font/Future"
+            android:layout_marginStart="5.0dip" />
+        <TextClock
+            android:textSize="25.0sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/calendarValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:textAllCaps="true"
+            android:fontFamily="@font/font_7f090004"
+            android:format12Hour="MMMM dd"
+            android:format24Hour="MMMM dd" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/todaySection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180.0dip"
+        android:layout_marginStart="30.0dip">
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/todayLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-20.0dip"
+            android:text="Today is"
+            android:fontFamily="@font/Future"
+            android:layout_marginStart="5.0dip" />
+        <TextClock
+            android:textSize="25.0sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/todayValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:textAllCaps="true"
+            android:fontFamily="@font/font_7f090004"
+            android:format12Hour="EEEE"
+            android:format24Hour="EEEE" />
+    </LinearLayout>
+</RelativeLayout>

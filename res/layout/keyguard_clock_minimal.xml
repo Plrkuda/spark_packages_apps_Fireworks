@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextClock
+        android:textSize="35.0sp"
+        android:textColor="#ffff39ea"
+        android:id="@+id/curvedText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:fontFamily="@font/BebasNeue_Bold"
+        android:format12Hour="EEEE"
+        android:format24Hour="EEEE" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip">
+        <TextView
+            android:textSize="35.0sp"
+            android:textColor="#ff56c1ff"
+            android:id="@+id/ofText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="of "
+            android:fontFamily="@font/BebasNeue_Bold" />
+        <TextClock
+            android:textSize="35.0sp"
+            android:textColor="#ff56c1ff"
+            android:id="@+id/monthNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/BebasNeue_Bold"
+            android:format12Hour="MMMM" />
+    </LinearLayout>
+    <TextClock
+        android:textSize="35.0sp"
+        android:textColor="#ffffd700"
+        android:id="@+id/curvedText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:fontFamily="@font/BebasNeue_Bold"
+        android:format12Hour="dd, yyyy"
+        android:format24Hour="dd, yyyy" />
+    <TextClock
+        android:textSize="40.0sp"
+        android:textColor="#ffffffff"
+        android:id="@+id/curvedText4_12hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:fontFamily="@font/BebasNeue_Bold"
+        android:format12Hour="h:mm a" />
+</LinearLayout>

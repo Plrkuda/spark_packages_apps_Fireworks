@@ -136,6 +136,32 @@
 
     </PreferenceCategory>
 
+<PreferenceCategory
+        android:title="@string/status_bar_logo_title" >
+
+        <com.spark.settings.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_logo"
+            android:title="@string/status_bar_logo_title"
+            android:summary="@string/status_bar_logo_summary" />
+
+         <com.spark.settings.preferences.SystemSettingListPreference
+            android:key="status_bar_logo_position"
+            android:title="@string/status_bar_logo_position_title"
+            android:entries="@array/status_bar_logo_position_entries"
+            android:entryValues="@array/status_bar_logo_position_values"
+            android:defaultValue="0"
+            android:dependency="status_bar_logo" />
+
+        <com.spark.settings.preferences.SystemSettingListPreference
+            android:key="status_bar_logo_style"
+            android:title="@string/status_bar_logo_style_title"
+            android:entries="@array/status_bar_logo_style_entries"
+            android:entryValues="@array/status_bar_logo_style_values"
+            android:defaultValue="0"
+            android:dependency="status_bar_logo" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:title="@string/statusbar_indicators">
 
@@ -169,6 +195,19 @@
             android:entries="@array/status_bar_battery_style_entries"
             android:entryValues="@array/status_bar_battery_style_values"
             android:defaultValue="0" />
+     
+         <PreferenceCategory
+        android:title="Battery Extra customization" >
+
+        <!-- Battery styles -->
+        <Preference
+            android:key="misc_batterysb"
+            android:fragment="com.spark.settings.fragments.MiscBatterySettings"
+            android:title="Misc Battery Icon Settings"
+            android:summary="customize statusbar battery icon settings" />
+
+    </PreferenceCategory>
+
 
          <com.spark.settings.preferences.SystemSettingListPreference
             android:key="status_bar_show_battery_percent"
